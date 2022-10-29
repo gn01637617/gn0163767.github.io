@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.navbar{
+    background: #681791;
+}
+
+.navbar .container .text {   
+    color: #00EDED;
+}
+
+.navbar .collapse .btn{
+    background: #00EDED;
+    border-radius: 0%;
+    width: 86px;
+    height: 32px;
+    border: none;
+}
+
+header .container-images img{
+    object-fit: cover;
+    width: 100%;
+    height: 560px; 
+}
+
+header .container{
+    position: absolute;
+    top:220px;
+    left:100px;
+}
+
+header .container .text{
+    color: #5B3BDB;
+    font-size: 32px;  
+}
+
+header .container .btn{
+    background: #00EDED;
+    border-radius: 0%;
+    width: 410px;
+    height: 36px;
+    border: none;
+}
+
+.container .row img{
+    object-fit: cover;
+    width: 100%;
+    height: 375px;
+}
+
+.container .row .col{
+    text-align: center; 
+}
+
+.carousel img{
+    object-fit: cover;
+    height: 720px;
+}
+
+.footer{
+    background-color: #4A1083;
+    height: 200px;
+    line-height: 100px;
+}
+
+.footer .container .footer-images a{   
+    color: #00EDED;
+}
+
+.footer .container .footer-images i{
+    color: #fff;
+    width: 100px;
+    position: relative;
+    top: 12px;
+    left: 435px;
+}
